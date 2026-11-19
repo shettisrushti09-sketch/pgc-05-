@@ -1,0 +1,40 @@
+tail -n 10 results/performance_results.txtExperiment 5: Neural Network Layers in CUDA
+GPU: NVIDIA GeForce RTX 5060 Ti
+
+RUN 1
+CPU average time: 0.227644 ms
+GPU kernel average time: 0.050862 ms
+GPU end-to-end average time: 0.263647 ms
+Kernel speedup: 4.475683x
+End-to-end speedup: 0.863441x
+Maximum absolute error: 0.000000
+
+RUN 2
+CPU average time: 0.223929 ms
+GPU kernel average time: 0.059544 ms
+GPU end-to-end average time: 0.260239 ms
+Kernel speedup: 3.760723x
+End-to-end speedup: 0.860473x
+Maximum absolute error: 0.000000
+
+RUN 3
+CPU average time: 0.223802 ms
+GPU kernel average time: 0.038038 ms
+GPU end-to-end average time: 0.226327 ms
+Kernel speedup: 5.883593x
+End-to-end speedup: 0.988845x
+Maximum absolute error: 0.000000
+
+RUN 4
+CPU average time: 0.223259 ms
+GPU kernel average time: 0.028346 ms
+GPU end-to-end average time: 0.297853 ms
+Kernel speedup: 7.876327x
+End-to-end speedup: 0.749561x
+Maximum absolute error: 0.000000
+
+VALIDATION
+Matrix multiplication + bias: PASSED
+ReLU: PASSED
+Sigmoid: PASSED
+CPU and GPU outputs: MATCH

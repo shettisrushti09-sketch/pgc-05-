@@ -1,0 +1,9 @@
+# Compiled executables
+neural_network
+neural_network.exe
+neural_network.obj
+*.o
+*.obj
+
+# Temporary files
+*.tmp

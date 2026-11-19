@@ -1,0 +1,28 @@
+EXPERIMENT 5: NEURAL NETWORK LAYERS IN CUDA
+GPU detected: NVIDIA GeForce RTX 5060 Ti
+
+Testing individual CUDA kernels...
+Matrix multiplication + bias: PASSED
+ReLU: PASSED
+Sigmoid: PASSED
+
+========== PERFORMANCE RESULTS ==========
+CPU average time: 0.278576 ms
+GPU kernel average time: 0.025818 ms
+GPU end-to-end average time: 0.178228 ms
+Kernel speedup: 10.790149x
+End-to-end speedup: 1.563032x
+Maximum absolute error: 0.000000
+CPU and GPU outputs: MATCH
+
+First 10 output values:
+CPU: 0.498196 | GPU: 0.498196
+CPU: 0.503101 | GPU: 0.503101
+CPU: 0.508006 | GPU: 0.508006
+CPU: 0.512911 | GPU: 0.512911
+CPU: 0.517814 | GPU: 0.517814
+CPU: 0.497729 | GPU: 0.497729
+CPU: 0.502638 | GPU: 0.502638
+CPU: 0.507548 | GPU: 0.507548
+CPU: 0.512457 | GPU: 0.512457
+CPU: 0.517364 | GPU: 0.517364
